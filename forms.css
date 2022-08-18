@@ -1,0 +1,72 @@
+form {
+    background-color: rgb(51, 173, 173);
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+legend {
+    font-size: 3rem;
+    margin: 10px 0px;
+    padding: 10px;
+    color:rgb(235, 198, 77);
+    text-shadow: 1px 1px rgb(15, 15, 15);
+}
+
+fieldset {
+    border: 0px;
+    text-align: center;
+}
+
+label {
+  
+    font-family: Tahoma, sans-serif;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    width: 150px;
+    background-color: antiquewhite;
+    padding: 10px 40px;
+    border: 0px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.submit-btn:hover {
+    background-color: rgb(235, 198, 77)
+}
+
+input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #ffa500;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+    p {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
