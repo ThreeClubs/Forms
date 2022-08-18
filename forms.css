@@ -199,20 +199,20 @@ form {
 }
 
 @keyframes test {
-  0% {background-color: rgba(9, 2, 73, 0.9); left: 0px; top: 0px; transform: rotate(30deg);}
-  8% {background-color: rgba(14, 79, 104, 0.9); left: 16px; top: 16px; transform: rotate(30deg);}
-  16% {background-color: rgba(34, 158, 82, 0.9); left: 32px; top: 32px; transform:rotate(60deg);}
-  24% {background-color: rgba(173, 204, 102, 0.9); left: 48px; top: 48px; transform:rotate(90deg);}
-  32% {background-color: rgba(116, 100, 49, 0.9); left: 64px; top: 64px; transform:rotate(120deg);}
-  40% {background-color: rgba(71, 20, 44, 0.9); left: 80px; top: 80px;transform: rotate(150deg);}
-  48% {background-color: rgba(9, 2, 73, 0.9); left: 96px; top: 96px; transform:rotate(180deg);}
-  56% {background-color: rgba(9, 2, 73, 0.9); left: 116px; top: 116px; transform: rotate(210deg);}
-  64% {background-color: rgba(14, 79, 104, 0.9); left: 96px; top: 96px; transform: rotate(240deg);}
-  72% {background-color: rgba(34, 158, 82, 0.9); left: 80px; top: 80px; transform:rotate(270deg);}
-  80% {background-color: rgba(173, 204, 102, 0.9); left: 64px; top: 64px; transform:rotate(300deg);}
-  88% {background-color: rgba(116, 100, 49, 0.9); left: 48px; top: 48px; transform:rotate(330deg);}
-  96% {background-color: rgba(71, 20, 44, 0.9); left: 32px; top: 32px;transform: rotate(360deg);}
-  100% {background-color: rgba(9, 2, 73, 0.9); left: 0px; top: 0px; transform:rotate(360deg);}
+  0% {background-color: rgba(9, 2, 73, 0.9); left: 0px; top: 0px;}
+  8% {background-color: rgba(14, 79, 104, 0.9); left: 16px; top: 16px; transform: rotateY(30deg);}
+  16% {background-color: rgba(34, 158, 82, 0.9); left: 32px; top: 32px; transform:rotateY(60deg);}
+  24% {background-color: rgba(173, 204, 102, 0.9); left: 48px; top: 48px; transform:rotateY(90deg);}
+  32% {background-color: rgba(116, 100, 49, 0.9); left: 64px; top: 64px; transform:rotateY(120deg);}
+  40% {background-color: rgba(71, 20, 44, 0.9); left: 80px; top: 80px;transform: rotateY(150deg);}
+  48% {background-color: rgba(9, 2, 73, 0.9); left: 96px; top: 96px; transform:rotateY(180deg);}
+  56% {background-color: rgba(9, 2, 73, 0.9); left: 116px; top: 116px; transform: rotateY(210deg);}
+  64% {background-color: rgba(14, 79, 104, 0.9); left: 96px; top: 96px; transform: rotateY(240deg);}
+  72% {background-color: rgba(34, 158, 82, 0.9); left: 80px; top: 80px; transform:rotateY(270deg);}
+  80% {background-color: rgba(173, 204, 102, 0.9); left: 64px; top: 64px; transform:rotateY(300deg);}
+  88% {background-color: rgba(116, 100, 49, 0.9); left: 48px; top: 48px; transform:rotateY(330deg);}
+  96% {background-color: rgba(71, 20, 44, 0.9); left: 24px; top: 24px;transform: rotateY(360deg);}
+  100% {background-color: rgba(9, 2, 73, 0.9); left: 0px; top: 0px; transform: rotateY(360deg);}
 }
 
 form {
@@ -221,5 +221,7 @@ form {
   animation-timing-function: linear;
   position: relative;
 }
+
+
 
 
