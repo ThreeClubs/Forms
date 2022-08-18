@@ -4,59 +4,78 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="forms.css">
+    <link rel="stylesheet" href="forms.css" />
     <title>Form</title>
   </head>
   <body>
-    <form action="mailto:andrewg@missionreadyhq.com">
-      <fieldset>
-        <legend>Personal Information:</legend>
-        <label for="fname">First name:</label>
-        <input
-          required
-          placeholder="Joe"
-          type="text"
-          id="fname"
-          name="fname"
-        /><br /><br />
-        <label for="lname">Last name:</label>
-        <input
-          required
-          placeholder="Bloggs"
-          type="text"
-          id="lname"
-          name="lname"
-        /><br /><br />
-        <label for="email">Email:</label>
-        <input
-          required
-          placeholder="name@email.com"
-          type="email"
-          id="email"
-          name="email"
-        /><br /><br />
-        <label for="birthday">Date of Birth:</label>
-        <input required type="date" id="dob" name="dob" /><br /><br />
+    <section>
+      <form action="mailto:andrewg@missionreadyhq.com">
+        <fieldset>
+          <legend>Personal Information:</legend>
+          <div id="input-container">
+          <label for="fname">First name:</label>
+          <input
+            required
+            placeholder="Joe"
+            type="text"
+            id="fname"
+            name="fname"
+          /><br /><br />
+          <label for="lname">Last name:</label>
+          <input
+            required
+            placeholder="Bloggs"
+            type="text"
+            id="lname"
+            name="lname"
+          /><br /><br />
+          <label for="email">Email:</label>
+          <input
+            required
+            placeholder="name@email.com"
+            type="email"
+            id="email"
+            name="email"
+          /><br /><br />
+          <label for="birthday">Date of Birth:</label>
+          <input required type="date" id="dob" name="dob" /><br /><br />
 
-        <p>Reason for contacting today: </p>
+          <p>Reason for contacting today:</p>
 
-        <input class="radio" type="radio" id="bored" name="reason" value="Bored" />
-        <label for="html">Bored</label><br />
+          <input
+            class="radio"
+            type="radio"
+            id="bored"
+            name="reason"
+            value="Bored"
+          />
+          <label for="html">Bored</label><br />
 
-        <input class="radio" type="radio" id="dunno" name="reason" value="Dunno" />
-        <label for="dunno">Dunno</label><br />
+          <input
+            class="radio"
+            type="radio"
+            id="dunno"
+            name="reason"
+            value="Dunno"
+          />
+          <label for="dunno">Dunno</label><br />
 
-        <input
-          type="radio"
-          class="radio"
-          id="general-bleh"
-          name="reason"
-          value="General Bleh"
-        />
-        <label for="general bleh">General Bleh</label><br />
+          <input
+            type="radio"
+            class="radio"
+            id="general-bleh"
+            name="reason"
+            value="General Bleh"
+          />
+          <label for="general bleh">General Bleh</label><br />
 
-        <input class="submit-btn" type="submit" value="Submit" />
-      </fieldset>
-    </form>
+           <label id="comments-title" for="comments">Comments: </label> <br>
+           <textarea id="comments-textbox" type="text" placeholder="Additional info or suggestions here..." ></textarea>
+          </div>
+
+          <input class="submit-btn" type="submit" value="Submit" />
+        </fieldset>
+      </form>
+    </section>
   </body>
 </html>

@@ -1,3 +1,10 @@
+section {
+    max-width: 700px;
+    min-width: 480px;
+    display: iline;
+    margin: 0 auto;
+}
+
 form {
     background-color: rgb(51, 173, 173);
     border-radius: 10px;
@@ -9,7 +16,7 @@ legend {
     font-size: 3rem;
     margin: 10px 0px;
     padding: 10px;
-    color:rgb(235, 198, 77);
+    color:rgb(235, 161, 77);
     text-shadow: 1px 1px rgb(15, 15, 15);
 }
 
@@ -35,7 +42,18 @@ label {
 }
 
 .submit-btn:hover {
-    background-color: rgb(235, 198, 77)
+    background-color: rgb(224, 157, 56)
+}
+
+input[type=text], input[type="email"] {
+    padding: 2px 2px; 
+    margin: 8px 0px;
+    border: none;
+    border-bottom: 2px solid rgb(163, 113, 21);
+}
+
+textarea {
+    border: 2px solid purple;
 }
 
 input[type='radio']:after {
@@ -69,4 +87,14 @@ input[type='radio']:checked:after {
     p {
         font-weight: bold;
         font-size: 1.2rem;
+    }
+
+    #input-container {
+        width: 50%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+     #input-container > input {
+        align-content: right;
     }
